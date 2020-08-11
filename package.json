@@ -1,0 +1,16 @@
+{
+    "name": "easybuy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run server & npm run client",
+        "server": "npm start --prefix server",
+        "client": "npm start --prefix client",
+        "server-dev": "npm run server --prefix server",
+        "dev": "npm run server-dev & npm run client"
+    },
+    "author": "Harshita Agarwal, Anchal Gupta",
+    "license": "MIT"
+}
