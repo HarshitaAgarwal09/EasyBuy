@@ -1,10 +1,15 @@
 # EasyBuy
-*Run this command in both server and client directory*
-### `npm init`
+
+## Setting the app
+*Run this command in the project directory after clonning*
+### `npm run setup`
+
+*Or Run this command in project(root), server and client directory*
+### `npm install`
 
 <br/>
 
-*All the commands to be run in project directory*
+*All the below commands to be run in project directory*
 
 ## **To run app (both client and server)**
 ### `npm start`
